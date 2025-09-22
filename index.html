@@ -106,7 +106,7 @@
             <div class="contact-info">
               <p class="contact-title">Experience</p>
 
-              <time datetime="1982-06-23">2+ Years</time>
+              <time datetime="2020-01-01" id="total-experience"></time>
             </div>
 
           </li>
@@ -120,7 +120,7 @@
             <div class="contact-info">
               <p class="contact-title">Location</p>
 
-              <address>Pune</address>
+              <address>Pune, Maharashtra</address>
             </div>
 
           </li>
@@ -191,9 +191,11 @@
 
         <section class="about-text">
           <p>
-            Hi, I’m Shivani Pawar — a UI/UX Designer with 2+ years of experience turning ideas into intuitive digital
+            <!-- Hi, I’m Shivani Pawar — a UI/UX Designer with -->
+             <span datetime="2020-01-01" id="about-experience"></span> 
+            <!-- experience turning ideas into intuitive digital
             experiences. I design responsive web and mobile interfaces, admin dashboards, and brand visuals that are
-            user-friendly and conversion-driven.
+            user-friendly and conversion-driven. -->
           </p>
 
           <p>
@@ -359,6 +361,10 @@
             <li class="timeline-item">
 
               <h4 class="h4 timeline-item-title">UI/UX Designer</h4>
+              <a href="https://neuromonk.com/" target="_blank" rel="noopener noreferrer" class="outline-color">
+                Neuromonk Infotech Pvt. Ltd.
+              </a>
+
 
               <span>Sept 2023 – Present</span>
 
@@ -372,8 +378,12 @@
             <li class="timeline-item">
 
               <h4 class="h4 timeline-item-title">UI/UX Design Intern</h4>
+              <a href="https://neuromonk.com/" target="_blank" rel="noopener noreferrer" class="outline-color">
+                Neuromonk Infotech Pvt. Ltd.
+              </a>
 
-              <span>Jun 2023 – Aug 2023</span>
+
+              <span>Jun 2023 – Sept 2023</span>
 
               <p class="timeline-text">
                 Worked on UI wireframes and visual layouts in Figma, assisting the team with design updates and product
@@ -566,7 +576,7 @@
               <li class="select-item"><button data-select-item>All</button></li>
               <li class="select-item"><button data-select-item>Applications</button></li>
               <li class="select-item"><button data-select-item>Web Designs</button></li>
-              <li class="select-item"><button data-select-item>Web Panels</button></li>
+              <!-- <li class="select-item"><button data-select-item>Web Panels</button></li> -->
               <li class="select-item"><button data-select-item>Branding & Designs</button></li>
             </ul>
 
@@ -579,13 +589,19 @@
             <!-- Reward Management App -->
             <li class="project-item active" data-filter-item data-category="applications">
               <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box"
-                    onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/skf_rpp_mpp.png')">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/Project_01_SKF.png" alt="Reward Management App" loading="lazy">
-                </figure>
+                <div
+                  onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/skf_rpp_mpp.png')">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box"
+                      onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/skf_rpp_mpp.png')">
+
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/Project_01_SKF.png" alt="Reward Management App" loading="lazy">
+                  </figure>
+                </div>
+
                 <h3 class="project-title">SKF RPP & MPP</h3>
                 <p class="project-category">Reward Management App</p>
               </a>
@@ -594,12 +610,18 @@
             <!-- Dhividhhyadham App -->
             <li class="project-item active" data-filter-item data-category="applications">
               <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box" onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/Dhividdhyaddham.png')">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/Project_07_Dhividhhyadham_App.png" alt="Dhividhhyadham App" loading="lazy">
-                </figure>
+                <div
+                  onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/Dhividdhyaddham.png')">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box"
+                      onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/Dhividdhyaddham.png')">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/Project_07_Dhividhhyadham_App.png" alt="Dhividhhyadham App"
+                      loading="lazy">
+                  </figure>
+                </div>
                 <h3 class="project-title">Dhividhhyadham</h3>
                 <p class="project-category">School App</p>
               </a>
@@ -608,20 +630,25 @@
             <!-- MyFoodChecker App -->
             <li class="project-item active" data-filter-item data-category="applications">
               <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box"
-                    onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/my_food_checker.png')">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/Project_10_MyFoodChecker.png" alt="MyFoodChecker" loading="lazy">
-                </figure>
+                <div
+                  onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/myfoodchecker.png')">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box"
+                      onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/myfoodchecker.png')">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/Project_10_MyFoodChecker.png" alt="MyFoodChecker" loading="lazy">
+                  </figure>
+                </div>
+
                 <h3 class="project-title">MyFoodChecker</h3>
                 <p class="project-category">Allergy Detection App</p>
               </a>
             </li>
 
             <!-- Gadiwala App -->
-            <li class="project-item active" data-filter-item data-category="applications">
+            <!-- <li class="project-item active" data-filter-item data-category="applications">
               <a href="#">
                 <figure class="project-img">
                   <div class="project-item-icon-box" onclick="openImage('')">
@@ -632,7 +659,7 @@
                 <h3 class="project-title">Gadiwala</h3>
                 <p class="project-category">Trnasport App</p>
               </a>
-            </li>
+            </li> -->
 
             <!-- Fantom App -->
             <!-- <li class="project-item active" data-filter-item data-category="applications">
@@ -670,13 +697,17 @@
             <!-- SkyGram Stays -->
             <li class="project-item active" data-filter-item data-category="web designs">
               <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box"
-                    onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/sky_gram.png')">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/Project_02_Sky_Gram.png" alt="SkyGram Stays" loading="lazy">
-                </figure>
+                <div
+                  onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/Sky%20Gram%20Stays.png')">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box"
+                      onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/Sky%20Gram%20Stays.png')">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/Project_02_Sky_Gram.png" alt="SkyGram Stays" loading="lazy">
+                  </figure>
+                </div>
                 <h3 class="project-title">SkyGram Stays</h3>
                 <p class="project-category">Villa Booking Website</p>
               </a>
@@ -686,13 +717,17 @@
             <!-- Happy Farm -->
             <li class="project-item active" data-filter-item data-category="web designs">
               <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box"
-                    onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/happy_farm.png')">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/Project_09_Happy_Fram.png" alt="Happy Farm" loading="lazy">
-                </figure>
+                <div
+                  onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/Happy%20Farm%20(1).png')">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box"
+                      onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/Happy%20Farm%20(1).png')">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/Project_09_Happy_Fram.png" alt="Happy Farm" loading="lazy">
+                  </figure>
+                </div>
                 <h3 class="project-title">Happy Farm</h3>
                 <p class="project-category">Farming Landing Page</p>
               </a>
@@ -701,13 +736,19 @@
             <!-- NeuroERP -->
             <li class="project-item active" data-filter-item data-category="web designs">
               <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box"
-                    onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/NeuroERP_case_study.png')">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/Project_12_NeuroERP.png" alt="NeuroERP" loading="lazy">
-                </figure>
+                <div
+                  onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/NeuroERP_case_study.png')">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box"
+                      onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/NeuroERP_case_study.png')">
+
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/Project_12_NeuroERP.png" alt="NeuroERP" loading="lazy">
+                  </figure>
+                </div>
+
                 <h3 class="project-title">NeuroERP</h3>
                 <p class="project-category">NeuroERP Landing Page</p>
               </a>
@@ -717,13 +758,17 @@
             <!-- Crunchy Bite -->
             <li class="project-item active" data-filter-item data-category="web designs">
               <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box"
-                    onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/crunchy_bite.png')">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/Project_06_Crunchy_Bite.png" alt="Crunchy Bite" loading="lazy">
-                </figure>
+                <div
+                  onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/crunchy_bite.png')">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box"
+                      onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/crunchy_bite.png')">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/Project_06_Crunchy_Bite.png" alt="Crunchy Bite" loading="lazy">
+                  </figure>
+                </div>
                 <h3 class="project-title">Crunchy Bite</h3>
                 <p class="project-category">Snacks Landing Page</p>
               </a>
@@ -794,12 +839,17 @@
             <!-- Book Cover -->
             <li class="project-item active" data-filter-item data-category="branding & designs">
               <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box" onclick="openImage('')">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/Project_05_School_Book_Cover.png" alt="Book Cover" loading="lazy">
-                </figure>
+                <div
+                  onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/Book_Cover.png')">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box"
+                      onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/Book_Cover.png')">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/Project_05_School_Book_Cover.png" alt="Book Cover" loading="lazy">
+                  </figure>
+                </div>
                 <h3 class="project-title">Book Cover</h3>
                 <p class="project-category">Branding & Designs</p>
               </a>
@@ -808,14 +858,19 @@
             <!-- Fruit Tag -->
             <li class="project-item active" data-filter-item data-category="branding & designs">
               <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box" onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/Fruit_Tag.png')">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/Project_08_Fruit _Tag.png" alt="Fruit Tag" loading="lazy">
-                </figure>
-                <h3 class="project-title">Fruit Tag</h3>
-                <p class="project-category">Branding & Designs</p>
+                <div
+                  onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/Fruit_Tag.png')">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box"
+                      onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/Fruit_Tag.png')">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/Project_08_Fruit _Tag.png" alt="Fruit Tag" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Fruit Tag</h3>
+                  <p class="project-category">Branding & Designs</p>
               </a>
             </li>
 
@@ -850,13 +905,17 @@
             <!-- Visiting Card -->
             <li class="project-item active" data-filter-item data-category="branding & designs">
               <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box"
-                    onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/NeuroERP_Visiting_Card.png')">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/Project_03_Visiting_Card.png" alt="Visiting Card" loading="lazy">
-                </figure>
+                <div
+                  onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/NeuroERP_Visiting_Card.png')">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box"
+                      onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/NeuroERP_Visiting_Card.png')">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/Visiting Card.png" alt="Visiting Card" loading="lazy">
+                  </figure>
+                </div>
                 <h3 class="project-title">Visiting Card</h3>
                 <p class="project-category">Branding & Designs</p>
               </a>
@@ -1179,6 +1238,57 @@
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
   <script>
+    function calculateTotalExperience() {
+      const totalExperienceElement = document.getElementById("total-experience");
+      const aboutExperienceElement = document.getElementById("about-experience");
+
+      if (!totalExperienceElement && !aboutExperienceElement) return;
+
+      // Define experience periods
+      const experiences = [
+        { start: new Date("2023-06-01"), end: new Date() }, // Senior Flutter Developer (Present)
+        { start: new Date("2023-06-01"), end: new Date("2023-06-01") }, // Flutter Development Intern (3 months)
+      ];
+
+      let totalMonths = 0;
+
+      experiences.forEach((exp) => {
+        const diffTime = Math.abs(exp.end - exp.start);
+        const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+        const years = Math.floor(diffDays / 365);
+        const months = Math.floor((diffDays % 365) / 30);
+
+        totalMonths += years * 12 + months;
+      });
+
+      const totalYears = Math.floor(totalMonths / 12);
+      const remainingMonths = totalMonths % 12;
+
+      // Format for sidebar (detailed: "1 Year 3 Months")
+      let totalExperienceText = "";
+      let aboutExperienceText = "Hi, I’m Shivani Pawar — a UI/UX Designer with ";
+      if (totalYears > 0) {
+        totalExperienceText += totalYears + (totalYears === 1 ? " Year" : " Years");
+        aboutExperienceText += totalYears + (totalYears === 1 ? " Year" : " Years");
+      }
+      if (remainingMonths > 0) {
+        if (totalExperienceText) totalExperienceText += " ";
+        totalExperienceText += remainingMonths + (remainingMonths === 1 ? " Month " : " Months");
+        if (aboutExperienceText) aboutExperienceText += " ";
+        aboutExperienceText += remainingMonths + (remainingMonths === 1 ? " Month experience turning ideas into intuitive digital experiences. I design responsive web and mobile interfaces, admin dashboards, and brand visuals that are user-friendly and conversion-driven." : " Months experience turning ideas into intuitive digital experiences. I design responsive web and mobile interfaces, admin dashboards, and brand visuals that are user-friendly and conversion-driven.");
+      }
+
+      // Format for about section (simplified: "1+ years")
+
+
+      // Update elements if they exist
+      if (totalExperienceElement) {
+        totalExperienceElement.textContent = totalExperienceText;
+      }
+      if (aboutExperienceElement) {
+        aboutExperienceElement.textContent = aboutExperienceText;
+      }
+    }
     function openImage(src) {
       document.getElementById("imageModal").style.display = "block";
       document.getElementById("popupImage").src = src;
@@ -1251,6 +1361,9 @@
 
       xhr.send(formData);
     }
+    document.addEventListener("DOMContentLoaded", function () {
+      calculateTotalExperience();
+    });
   </script>
 
 
