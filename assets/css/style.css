@@ -357,7 +357,7 @@ main {
 }
 
 .sidebar.active {
-  max-height: 405px;
+  max-height: 504px;
 }
 
 .sidebar-info {
@@ -2433,5 +2433,20 @@ textarea.form-input::-webkit-resizer {
   .contact-title {
     font-size: 11px;
     margin-bottom: 4px;
+  }
+
+  /* Left-align profile name and role on mobile */
+  .sidebar-info {
+    align-items: flex-start;
+  }
+
+  .info-content .name {
+    text-align: left;
+    white-space: normal;
+  }
+
+  .info-content .title {
+    margin-left: 0;
+    margin-right: 0;
   }
 }

@@ -17,6 +17,13 @@
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
+  <!-- Performance: hint DNS + connection for Supabase asset host -->
+  <link rel="dns-prefetch" href="https://loxyrkvlffdbtlbmnvhw.supabase.co">
+  <link rel="preconnect" href="https://loxyrkvlffdbtlbmnvhw.supabase.co" crossorigin>
+
+  <!-- Preload hero/avatar image to improve LCP -->
+  <link rel="preload" as="image" href="./assets/images/profilenew.png" imagesrcset="./assets/images/profilenew.png 1x"/>
+
   <!--
     - google font link
   -->
@@ -42,7 +49,7 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/profile.png" alt="Shivani Pawar" width="80">
+          <img src="./assets/images/profilenew.png" alt="Shivani Pawar" width="120" height="180" fetchpriority="high" loading="eager" decoding="async">
         </figure>
 
         <div class="info-content">
@@ -192,7 +199,7 @@
         <section class="about-text">
           <p>
             <!-- Hi, I’m Shivani Pawar — a UI/UX Designer with -->
-             <span datetime="2020-01-01" id="about-experience"></span> 
+            <span datetime="2020-01-01" id="about-experience"></span>
             <!-- experience turning ideas into intuitive digital
             experiences. I design responsive web and mobile interfaces, admin dashboards, and brand visuals that are
             user-friendly and conversion-driven. -->
@@ -598,7 +605,7 @@
 
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
-                    <img src="./assets/images/Project_01_SKF.png" alt="Reward Management App" loading="lazy">
+                    <img src="./assets/images/Project_01_SKF.png" alt="Reward Management App" loading="lazy" decoding="async">
                   </figure>
                 </div>
 
@@ -638,7 +645,7 @@
                       onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/myfoodchecker.png')">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
-                    <img src="./assets/images/Project_10_MyFoodChecker.png" alt="MyFoodChecker" loading="lazy">
+                    <img src="./assets/images/Project_10_MyFoodChecker.png" alt="MyFoodChecker" loading="lazy" decoding="async">
                   </figure>
                 </div>
 
@@ -654,7 +661,7 @@
                   <div class="project-item-icon-box" onclick="openImage('')">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                  <img src="./assets/images/Project_11_Gadivala.png" alt="Gadiwala" loading="lazy">
+                  <img src="./assets/images/Project_11_Gadivala.png" alt="Gadiwala" loading="lazy" decoding="async">
                 </figure>
                 <h3 class="project-title">Gadiwala</h3>
                 <p class="project-category">Trnasport App</p>
@@ -668,7 +675,7 @@
                   <div class="project-item-icon-box" onclick="openImage('')">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                  <img src="./assets/images/project-9.png" alt="Fantom" loading="lazy">
+                  <img src="./assets/images/project-9.png" alt="Fantom" loading="lazy" decoding="async">
                 </figure>
                 <h3 class="project-title">Fantom App</h3>
                 <p class="project-category">Application</p>
@@ -685,7 +692,7 @@
                   <div class="project-item-icon-box" onclick="openImage('')">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                  <img src="./assets/images/project-9.png" alt="BuildMart" loading="lazy">
+                  <img src="./assets/images/project-9.png" alt="BuildMart" loading="lazy" decoding="async">
                 </figure>
                 <h3 class="project-title">BuildMart</h3>
                 <p class="project-category">Tiles & Sanitary Website</p>
@@ -705,7 +712,7 @@
                       onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/Sky%20Gram%20Stays.png')">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
-                    <img src="./assets/images/Project_02_Sky_Gram.png" alt="SkyGram Stays" loading="lazy">
+                    <img src="./assets/images/Project_02_Sky_Gram.png" alt="SkyGram Stays" loading="lazy" decoding="async">
                   </figure>
                 </div>
                 <h3 class="project-title">SkyGram Stays</h3>
@@ -725,7 +732,7 @@
                       onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/Happy%20Farm%20(1).png')">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
-                    <img src="./assets/images/Project_09_Happy_Fram.png" alt="Happy Farm" loading="lazy">
+                    <img src="./assets/images/Project_09_Happy_Fram.png" alt="Happy Farm" loading="lazy" decoding="async">
                   </figure>
                 </div>
                 <h3 class="project-title">Happy Farm</h3>
@@ -745,7 +752,7 @@
 
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
-                    <img src="./assets/images/Project_12_NeuroERP.png" alt="NeuroERP" loading="lazy">
+                    <img src="./assets/images/Project_12_NeuroERP.png" alt="NeuroERP" loading="lazy" decoding="async">
                   </figure>
                 </div>
 
@@ -766,7 +773,7 @@
                       onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/crunchy_bite.png')">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
-                    <img src="./assets/images/Project_06_Crunchy_Bite.png" alt="Crunchy Bite" loading="lazy">
+                    <img src="./assets/images/Project_06_Crunchy_Bite.png" alt="Crunchy Bite" loading="lazy" decoding="async">
                   </figure>
                 </div>
                 <h3 class="project-title">Crunchy Bite</h3>
@@ -782,7 +789,7 @@
                   <div class="project-item-icon-box" onclick="openImage('')">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                  <img src="./assets/images/project-9.png" alt="Bizbanker" loading="lazy">
+                  <img src="./assets/images/project-9.png" alt="Bizbanker" loading="lazy" decoding="async">
                 </figure>
                 <h3 class="project-title">Bizbanker</h3>
                 <p class="project-category">Web Design</p>
@@ -799,7 +806,7 @@
                   <div class="project-item-icon-box" onclick="openImage('')">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                  <img src="./assets/images/project-9.png" alt="TaskBuzzer" loading="lazy">
+                  <img src="./assets/images/project-9.png" alt="TaskBuzzer" loading="lazy" decoding="async">
                 </figure>
                 <h3 class="project-title">TaskBuzzer</h3>
                 <p class="project-category">Project Manageent Panel</p>
@@ -813,7 +820,7 @@
                   <div class="project-item-icon-box" onclick="openImage('')">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                  <img src="./assets/images/project-9.png" alt="Groofly" loading="lazy">
+                  <img src="./assets/images/project-9.png" alt="Groofly" loading="lazy" decoding="async">
                 </figure>
                 <h3 class="project-title">Groofly</h3>
                 <p class="project-category">Community Management Panel</p>
@@ -827,7 +834,7 @@
                   <div class="project-item-icon-box" onclick="openImage('')">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                  <img src="./assets/images/project-9.png" alt="Villa Booking System" loading="lazy">
+                  <img src="./assets/images/project-9.png" alt="Villa Booking System" loading="lazy" decoding="async">
                 </figure>
                 <h3 class="project-title">SkyGram Stays Admin</h3>
                 <p class="project-category">Villa Booking System</p>
@@ -847,7 +854,7 @@
                       onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/Book_Cover.png')">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
-                    <img src="./assets/images/Project_05_School_Book_Cover.png" alt="Book Cover" loading="lazy">
+                    <img src="./assets/images/Project_05_School_Book_Cover.png" alt="Book Cover" loading="lazy" decoding="async">
                   </figure>
                 </div>
                 <h3 class="project-title">Book Cover</h3>
@@ -866,7 +873,7 @@
                       onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/Fruit_Tag.png')">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
-                    <img src="./assets/images/Project_08_Fruit _Tag.png" alt="Fruit Tag" loading="lazy">
+                    <img src="./assets/images/Project_08_Fruit _Tag.png" alt="Fruit Tag" loading="lazy" decoding="async">
                   </figure>
 
                   <h3 class="project-title">Fruit Tag</h3>
@@ -881,7 +888,7 @@
                   <div class="project-item-icon-box" onclick="openImage('')">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                  <img src="./assets/images/project-9.png" alt="Fruit Sticker" loading="lazy">
+                  <img src="./assets/images/project-9.png" alt="Fruit Sticker" loading="lazy" decoding="async">
                 </figure>
                 <h3 class="project-title">Fruit Sticker</h3>
                 <p class="project-category">Branding & Designs</p>
@@ -895,7 +902,7 @@
                   <div class="project-item-icon-box" onclick="openImage('')">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                  <img src="./assets/images/Project_04_NeuroERP_Broucher.png" alt="NeuroERP Broucher" loading="lazy">
+                  <img src="./assets/images/Project_04_NeuroERP_Broucher.png" alt="NeuroERP Broucher" loading="lazy" decoding="async">
                 </figure>
                 <h3 class="project-title">NeuroERP Broucher</h3>
                 <p class="project-category">Branding & Designs</p>
@@ -913,7 +920,7 @@
                       onclick="openImage('https://loxyrkvlffdbtlbmnvhw.supabase.co/storage/v1/object/public/Shivani%20Anil%20Pawar/NeuroERP_Visiting_Card.png')">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
-                    <img src="./assets/images/Visiting Card.png" alt="Visiting Card" loading="lazy">
+                    <img src="./assets/images/Visiting Card.png" alt="Visiting Card" loading="lazy" decoding="async">
                   </figure>
                 </div>
                 <h3 class="project-title">Visiting Card</h3>
@@ -928,7 +935,7 @@
                   <div class="project-item-icon-box" onclick="openImage('')">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                  <img src="./assets/images/project-9.png" alt="CredKnow Pitch Deck" loading="lazy">
+                  <img src="./assets/images/project-9.png" alt="CredKnow Pitch Deck" loading="lazy" decoding="async">
                 </figure>
                 <h3 class="project-title">CredKnow Pitch Deck</h3>
                 <p class="project-category">Branding & Designs</p>
@@ -942,7 +949,7 @@
                   <div class="project-item-icon-box" onclick="openImage('')">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                  <img src="./assets/images/project-9.png" alt="Presentations" loading="lazy">
+                  <img src="./assets/images/project-9.png" alt="Presentations" loading="lazy" decoding="async">
                 </figure>
                 <h3 class="project-title">Presentations</h3>
                 <p class="project-category">Branding & Designs</p>
@@ -956,7 +963,7 @@
                   <div class="project-item-icon-box" onclick="openImage('')">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                  <img src="./assets/images/project-9.png" alt="Social Media Posts" loading="lazy">
+                  <img src="./assets/images/project-9.png" alt="Social Media Posts" loading="lazy" decoding="async">
                 </figure>
                 <h3 class="project-title">Social Media Posts</h3>
                 <p class="project-category">Branding & Designs</p>
@@ -992,7 +999,7 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy" decoding="async">
                 </figure>
 
                 <div class="blog-content">
@@ -1020,7 +1027,7 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy" decoding="async">
                 </figure>
 
                 <div class="blog-content">
@@ -1048,7 +1055,7 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy" decoding="async">
                 </figure>
 
                 <div class="blog-content">
@@ -1076,7 +1083,7 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy" decoding="async">
                 </figure>
 
                 <div class="blog-content">
@@ -1104,7 +1111,7 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy" decoding="async">
                 </figure>
 
                 <div class="blog-content">
@@ -1132,7 +1139,7 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy" decoding="async">
                 </figure>
 
                 <div class="blog-content">
